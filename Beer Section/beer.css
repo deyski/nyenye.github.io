@@ -1,0 +1,970 @@
+
+.navbar {
+  background-color: #272626;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 140px;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 40px;
+}
+
+.navbar .menu {
+  position: absolute;
+  left: 240px;
+  top: 100px;
+  display: inline-block;
+}
+
+.navbar .menu li {
+  font-family: Arial, sans-serif;
+  display: inline-block;
+  font-weight: bold;
+  margin-right: 60px;
+  list-style: none;
+  margin-left: 20px;
+}
+
+.navbar .menu li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+}.navbar .menu li a:hover{
+  color: #fc5c65;
+
+}
+.searchBar{
+  position: absolute;
+  left: 19em;
+  top: 30px;
+
+}.searchBar .searchterm{
+  color: #272626;
+  width: 550px;
+  height: 35px;
+  font-size: 20px;
+  border-radius: 3px;
+  border: 1px solid #f2f5f6;
+}.searchButton {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #070707;
+  background: #fafbfbd6;
+  text-align: center;
+  color: #fd7430;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}.upper_right{
+  font-size: 20px;
+  position: absolute;
+  top: 20px;
+  left: 50em;
+  display: inline-block;
+}#one{
+ 
+  margin-left: 0px;
+}#two{
+  margin-right: 0px;
+}.letters p1{
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  margin-left: 45px;
+}.icon{
+  height: 20px;
+  margin-top: 10px;
+  width: 350px;
+  display: flex;
+  justify-content: space-evenly
+}
+/*End of Navbar*/
+  /*End of Navbar*/
+  .beer-back{
+    display: flex;
+    height: 550px;
+    width: auto;
+    background: url(pexels-kindel-media-7148673\ \(1\).jpg) no-repeat;
+    background-size: cover;
+    justify-content: flex-start;
+    align-items: center;
+  }.title{
+    height: 100px;
+    background-color: #ffffff;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 50px;
+  }#beer{
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    color: #272626;
+    font-weight: 800;
+    margin-left: 10px;
+  }#Bline1{
+    margin-left: 10px;
+    padding: 0;
+    width: 150px;
+    height: 7px;
+    background-color: #0f0369;
+  }
+  .space1{
+    height: 70px;
+    color: white;
+  }
+  /*End of beer background*/
+  
+  .beer-selection{
+    height: 350px;
+    width: auto;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+
+  }
+  *{
+    scroll-behavior: smooth;
+    scroll-padding: 12rem;
+  }
+  
+  .box-1{
+    height: 250px;
+    width: 170px;
+    background-color: #dbdbdbc0;
+    border-radius: 5px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+  }#pinoybeer{
+    margin-left: 30px;
+    font-size: 20px;
+    color: #272626;
+    text-decoration: none;
+
+  }h4 #pinoybeer{
+    text-decoration: none;
+    
+  }a{
+    text-decoration: none;
+  }
+  
+  .box-2{
+    height: 250px;
+    width: 170px;
+    background-color: #dbdbdbc0;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }#beer{
+    margin-top: 20px;
+    margin-left: 5px;
+  }
+  #import-beer{
+    font-size: 20px;
+    color: #272626;
+    text-decoration: underline;
+    margin-left: px;
+
+  }.spaces{
+    height: 50px;
+    background-color: #ffffff;
+  }
+  
+  .box-3{
+    height: 250px;
+    width: 170px;
+    background-color: #dbdbdbc0;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }#pale{
+    font-size: 20px;
+    color: #272626;
+    text-decoration: underline;
+    margin-left: 35px;
+  }#pale-ale{
+    margin-top: 10px;
+  }
+  
+  .box-4{
+    height: 250px;
+    width: 170px;
+    background-color: #dbdbdbc0;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }#rosee{
+    font-size: 20px;
+    color: #272626;
+    text-decoration: underline;
+    margin-left: 30px;
+  }#pinoybeer1{
+    margin-top: 20px;
+  }
+  /* Beer top pics*/
+ .wrapp2{
+    height: 500px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }.B-title{
+    height: 100px;
+    background-color: #ffffff;
+   
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+  }#Beer-top{
+    font-size: 30px;
+    color: #272626;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }#line-1{
+    width: 350px;
+    height: 5px;
+    background-color: #000000;
+    margin: 0;
+  }
+  #line-2{
+    width: 1200px;
+    height: 3px;
+    background-color: #e6290c;
+    
+  }
+  
+  .category-1{
+    height: 420px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+  }#patitle1{
+    color: rgb(121, 121, 121);
+    font-size: 25px;
+    }#patitle2{
+      color: rgb(188, 71, 71);
+      font-size: 20px;
+      margin-bottom: 10px;
+    }#patitle3{
+      color: rgb(2, 2, 2);
+      font-size: 25px;
+      font-weight:bold;
+      text-decoration: underline;
+    }#patitle4{
+      padding: 4px;
+      color: white;
+      border: #272626 solid 1px;
+      border-radius: 5px;
+      background-color: #04c99e;
+    }#span{
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      margin-left: 20px;
+    }#reviews{
+      margin-left: 130px;
+      font-size: 12px;
+      color: #403f3f;
+    }#spanlower{
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      margin-left: 20px;
+    }
+    
+    #patitlelower{
+      padding: 4px;
+      color: rgb(0, 0, 0);
+      border: #272626 solid 1px;
+      border-radius: 5px;
+    }#low{
+      margin-left: 145px;
+      font-size: 17px;
+      color: #00bc1c;
+    }#spanfave{
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      margin-left: 20px;
+    }#patitlefave{
+      padding: 4px;
+      color: rgb(0, 0, 0);
+      border: #272626 solid 1px;
+      border-radius: 5px;
+      font-size: 15px;
+     
+    }#fave{
+      margin-left: 145px;
+      font-size: 17px;
+      color: #fc0909;
+    }
+  
+  
+  .b1box-1{
+    height: 420px;
+    width: 300px;
+    background-color: #dbdbdbc0;
+    box-shadow: -2px 25px 29px -22px rgb(168, 168, 168);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 2px;
+    margin-right: 2px;
+  }.b1box-2{
+    height: 420px;
+    width: 300px;
+    background-color: #dbdbdbc0;
+    box-shadow: -2px 25px 29px -22px rgb(168, 168, 168);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 2px;
+    margin-right: 2px;
+  }.b1box-3{
+    height: 420px;
+    width: 300px;
+    background-color: #dbdbdbc0;
+    box-shadow: -2px 25px 29px -22px rgb(168, 168, 168);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 2px;
+    margin-right: 2px;
+  }.b1box-4{
+    height: 420px;
+    width: 300px;
+    background-color: #dbdbdbc0;
+    box-shadow: -2px 25px 29px -22px rgb(168, 168, 168);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 2px;
+    margin-right: 2px;
+  }.b1box-1:hover #patitle2,
+  .b1box-2:hover #patitle2,
+  .b1box-3:hover  #patitle2,
+  .b1box-4:hover > #patitle2 {
+  color: rgb(129, 1, 69);
+  transition: ease-in-out 0.5s;
+  text-decoration: underline;
+
+}
+
+
+  /*Deals*/
+  .deals{
+    height: 400px;
+    background-color: #01b7c7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }.categ1{
+    background: url(pexels-mica-asato-1990025-removebg-preview.png);
+    background-size: cover;
+    height: 550px;
+    width: 400px;
+    margin-right: 20px;
+  }.categ2{
+    background-color: #01b7c7;
+    height: 200px;
+    width: 800px;
+   
+  }#categ2{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ca2f2f;
+  }#categ2parag{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #dedede;
+  }
+
+
+
+
+
+
+  
+
+  /*Liquor Blast*/
+  .wrapper5{
+    height: 550px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }.Ro-title{
+    height: 80px;
+    background-color: #ffffff;
+   margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+  }#Pinoy-Beer{
+    font-size: 30px;
+    color: #272626;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }#Rline-1{
+    width: 350px;
+    height: 5px;
+    background-color: #000000;
+    margin: 0;
+  }
+  #Rline-2{
+    width: 1200px;
+    height: 3px;
+    background-color: #e6290c;
+    
+  }
+
+
+
+
+  .Cprev{
+    position: relative;
+    right: 620px;
+    top: 240px;
+    font-size: 30px;
+    color: #000000;
+    text-decoration: none;
+  }a{
+    color: #000000;
+  }a:hover{
+    color: #ff0000;
+  }
+  .Cnext{
+    position: relative;
+    left: 620px;
+    top: 200px;
+    font-size: 30px;
+    color: #000000;
+    text-decoration: none;
+  }
+
+
+
+
+  #pptitle1{
+    color: rgb(121, 121, 121);
+    font-size: 20px;
+    }#pptitle2{
+      color: rgb(188, 71, 71);
+      font-size: 20px;
+      margin-bottom: 10px;
+    } 
+    #pptitle3{
+      color: rgb(2, 2, 2);
+      font-size: 20px;
+      font-weight:bold;
+      text-decoration: underline;
+    }
+
+  
+
+    #patitle1{
+      color: rgb(121, 121, 121);
+      font-size: 25px;
+      }#patitle2{
+        color: rgb(188, 71, 71);
+        font-size: 20px;
+        margin-bottom: 10px;
+      }#patitle3{
+        color: rgb(2, 2, 2);
+        font-size: 25px;
+        font-weight:bold;
+        text-decoration: underline;
+      }
+
+
+
+
+
+  .Rocategory-1{
+    height: 370px;
+    width: 1200px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    justify-content: flex-start;
+    scroll-padding: 12rem;
+  }.ro1box-1{
+    flex-shrink: 0;
+    height: 350px;
+    width:300px;
+    background-color: #dbdbdbc0;
+    box-shadow: -2px 25px 29px -22px rgb(168, 168, 168);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 2px;
+    margin-right: 2px;
+  }.ro1box-1:hover #pptitle2,
+    .ro1box-2:hover #pptitle2,
+    .ro1box-3:hover  #pptitle2,
+    .ro1box-4:hover > #pptitle2,
+    .ro1box-5:hover > #pptitle2,
+    .ro1box-6:hover > #pptitle2,
+    .ro1box-7:hover > #pptitle2{
+    color: rgb(129, 1, 69);
+    transition: ease-in-out 0.5s;
+    text-decoration: underline;
+
+  }.ro1box-1:hover #pptitle3,
+  .ro1box-2:hover #pptitle3,
+  .ro1box-3:hover  #pptitle3,
+  .ro1box-4:hover > #pptitle3,
+  .ro1box-5:hover > #pptitle3,
+  .ro1box-6:hover > #pptitle3,
+  .ro1box-7:hover > #pptitle3{
+  color: rgb(129, 1, 69);
+  transition: ease-in-out 0.5s;
+  text-decoration: underline;
+
+}
+
+
+  .ro1box-2{
+    
+    flex-shrink: 0;
+    height: 350px;
+    width:300px;
+    background-color: #dbdbdbc0;
+    box-shadow: -2px 25px 29px -22px rgb(168, 168, 168);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 2px;
+    margin-right: 2px;
+  }.ro1box-3{
+    flex-shrink: 0;
+    height: 350px;
+    width:300px;
+    background-color: #dbdbdbc0;
+    box-shadow: -2px 25px 29px -22px rgb(168, 168, 168);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 2px;
+    margin-right: 2px;
+  }.ro1box-4{
+    flex-shrink: 0;
+    height: 350px;
+    width:300px;
+    background-color: #dbdbdbc0;
+    box-shadow: -2px 25px 29px -22px rgb(168, 168, 168);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 2px;
+    margin-right: 2px;
+  }.ro1box-5{
+    flex-shrink: 0;
+    height: 350px;
+    width:300px;
+    background-color: #dbdbdbc0;
+    box-shadow: -2px 25px 29px -22px rgb(168, 168, 168);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 2px;
+    margin-right: 2px;
+  }.ro1box-6{
+    flex-shrink: 0;
+    height: 350px;
+    width:300px;
+    background-color: #dbdbdbc0;
+    box-shadow: -2px 25px 29px -22px rgb(168, 168, 168);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 2px;
+    margin-right: 2px;
+  }.ro1box-7{
+    flex-shrink: 0;
+    height: 350px;
+    width:300px;
+    background-color: #dbdbdbc0;
+    box-shadow: -2px 25px 29px -22px rgb(168, 168, 168);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
+  /*Pale Ale*/
+  .wrapper6{
+    height: 300px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .eee{
+    height: 200px;
+    width: 350px;
+    background-color: #EA906C;
+    border-radius: 4px 61px 0px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }#palee{
+    font-size: 60px;
+    font-family: Arial, Helvetica, serif;
+    color: #B31312;
+    text-shadow: 5px 3px 10px rgba(0,0,0,0.43);
+  }
+  .fff{
+    height: 200px;
+    width: 900px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+  }.Pbox1{
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+    background-color: #c3c3c3;
+  }.Pbox2{
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+    background-color: #c3c3c3;
+  }.Pbox3{
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+    background-color: #c3c3c3;
+  }.Pbox4{
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+    background-color: #c3c3c3;
+  }
+
+  /*Ordering Css*/
+
+
+  .premcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #00bc1c00;
+  }.prem-categ1{
+    width: 50%;
+    background-color: #9996d300;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }#premtitle1{
+    color: rgb(42, 42, 42);
+    font-size: 40px;
+    font-weight: bold;
+    }#premtitle2{
+      color: rgb(188, 71, 71);
+      font-size: 20px;
+      margin-bottom: 10px;
+    }#premtitle3{
+      color: rgb(2, 2, 2);
+      font-size: 20px;
+      font-weight:bold;
+      text-decoration: underline;
+    }#premtitle4{
+      color: rgb(29, 29, 29);
+      font-size: 15px;
+      margin-bottom: 10px;
+    }
+    #premdescription{
+      position: absolute;
+      width: 400px;
+      top: 360px;
+      left: 25px;
+      
+      
+    }
+  
+  
+  .prem-categ2{
+    height: 100%;
+    width: 50%;
+    background-color: #b90b0b00;
+    border-left: #000000 2px solid;
+  }
+
+/*liqueur Top pics*/
+.Malibu, .Orchid, .Granadinee, .BlueCura{
+  z-index: 1;
+  position: absolute;
+  margin-bottom: 100px;
+  top: 600px;
+  left: 300px;
+height: 0px;
+width: 1000px;
+  transition: height 0.3s ease;
+  overflow: hidden;
+  background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}#x{
+  position: relative;
+  left: 870px;
+  top: 20px;
+}#x:hover{
+  color: #e3200a;
+}
+
+.expand-page {
+  height: 550px;
+}
+/*liqueur Blast*/
+
+.Malii ,.Amareto ,.Coffee ,.Granadineee,.Triple ,.Curacao ,.OrchidCo{
+  z-index: 1;
+  position: absolute;
+  margin-bottom: 100px;
+  top: 1800px;
+  left: 300px;
+height: 0px;
+width: 1000px;
+  transition: height 0.3s ease;
+  overflow: hidden;
+  background: rgb(206, 202, 203);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}#x{
+  position: relative;
+  left: 870px;
+  top: 20px;
+}#x:hover{
+  color: #e3200a;
+}.expand-page {
+  height: 550px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Searchbar*/
+.search-results {
+  display: none; /* Hide the search results by default */
+  position: absolute;
+  top: 70px;
+  left: 305px;
+  background-color: rgb(255, 255, 255);
+  z-index: 999;
+  width: 532px;
+  border-radius: 5px;
+  border: rgb(255, 255, 255) solid 2px;
+  padding: 10px;
+  color: rgb(45, 45, 45);
+}.searchable-item{
+  color: #272626;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 20px;
+}.searchable-item a{
+  color: #5e5e5e;
+}.searchable-item a:hover{
+  color: #000000;
+}
+
+
+
+
+
+
+
+/*FormsCSS*/
+.inputs{
+  margin-left: 20px;
+  width: 400px;
+  height: 40px;
+  margin-bottom: 5px;
+  border: none;
+  border-bottom: #ff00d0 2px solid;
+  background-color: #dddddd;
+  background: #fffffff6;
+  border-radius: 5PX;
+  color: #000000;
+  box-shadow: 2px 15px 19px -17px rgba(0,0,0,1);
+
+}.textarea{
+  margin-left: 10px;
+  border-bottom:#000000;
+  resize: none;
+}::placeholder{
+  color: rgb(59, 59, 59);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+
+
+
+
+#footer{
+  background-color: #000000;
+ height: 400px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+
+}
+ 
+#logo{
+  width: 200px;
+  display: flex;
+  justify-content: left;
+  align-self: start;
+  margin-left: 20px;
+}
+ 
+.social-media{
+  margin: 20px 0;
+  margin-left: 20px;
+}
+ 
+.social-media a{
+  color: #ffffff;
+  margin-right: 25px;
+  font-size: 22px;
+  text-decoration: none;
+  transition: .3s linear;
+}
+ 
+.social-media a:hover{
+  color: #fc5c65;
+}
+ 
+.right-col h1{
+  font-size: 26px;
+}
+ 
+.border{
+  width: 100px;
+  height: 4px;
+  background: #fc5c65;
+}
+ 
+.newsletter-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+ 
+.txtb{
+  flex: 1;
+  padding: 18px 40px;
+  font-size: 16px;
+  color: #ffffff;
+  background: #ddd;
+  border: none;
+  font-weight: 700;
+  outline: none;
+  border-radius: 30px;
+  min-width: 260px;
+}
+ 
+#button{
+  padding: 18px 40px;
+  font-size: 16px;
+  color: #f1f1f1;
+  background: #fc5c65;
+  border: none;
+  font-weight: 700;
+  outline: none;
+  border-radius: 30px;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: opacity .3s linear;
+}
+ 
+#button:hover{
+  opacity: .7;
+}.shop > a{
+  text-decoration: none ;
+  color: #ababab;
+}.shop > a:hover{
+  text-decoration: underline;
+}
